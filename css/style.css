@@ -2,11 +2,11 @@ body {
 }
 
 .all {
-    width: 500px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .url {
-    width: calc(90% - 11px);
-    width: -webkit-calc(90% - 50px);
+    width: calc(100% - 11px);
+    width: -webkit-calc(100% - 50px);
 }
