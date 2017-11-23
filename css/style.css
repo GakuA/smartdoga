@@ -6,6 +6,10 @@ body {
     margin: 0 auto;
 }
 
+form {
+    white-space: nowrap;
+}
+
 .url {
     width: calc(100% - 74px);
     width : -webkit-calc(100% - 74px);
