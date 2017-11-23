@@ -7,7 +7,6 @@ body {
 }
 
 form {
-    white-space: nowrap;
 }
 
 .url {
@@ -16,5 +15,5 @@ form {
 }
 
 .tokoBtm {
-    width: 56px;
+    width: 55px;
 }
