@@ -7,5 +7,6 @@ body {
 }
 
 .url {
-    width: 452px;
+    width: calc(90% - 11px);
+    width: -webkit-calc(90% - 50px);
 }
