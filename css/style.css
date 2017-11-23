@@ -7,6 +7,9 @@ body {
 }
 
 .url {
-    width: calc(100% - 52px);
-    width: -webkit-calc(100% - 52px);
+    width: 80%;
+}
+
+.tokoBtm {
+    width: 19%;
 }

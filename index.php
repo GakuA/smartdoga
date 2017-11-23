@@ -12,7 +12,7 @@
         <div>
             <form>
                 <input class="url" type="text">
-                <input type="submit" value="投稿">
+                <input class="tokoBtm" type="submit" value="投稿">
             </form>
         </div>
     </div>
