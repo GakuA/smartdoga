@@ -7,11 +7,6 @@ body {
 }
 
 .url {
-    width: calc(100% - 42px);
-    width : -webkit-calc(100% - 42px);
-    display: inline-block;
-}
-
-.tokoBtm {
-    display: inline-block;
+    width: calc(100% - 100px);
+    width : -webkit-calc(100% - 100px);
 }
