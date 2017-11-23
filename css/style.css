@@ -18,3 +18,54 @@ form {
 .tokoBtm {
     width: 55px;
 }
+
+.tab {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.tab div {
+    margin-right: -4px;
+    padding: 2px 6px;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+}
+
+.sports {
+    background-color: #ff0000;
+}
+.technology {
+    background-color: #0021ff;
+}
+.news {
+    background-color: #ff0000;
+}
+.game {
+    background-color: #ff0000;
+}
+.animal {
+    background-color: #ff0000;
+}
+.product {
+    background-color: #ff0000;
+}
+.room {
+    background-color: #ff0000;
+}
+.tv {
+    background-color: #ff0000;
+}
+.youtuber {
+    background-color: #ff0000;
+}
+.great {
+    background-color: #ff0000;
+}
+.music {
+    background-color: #ff0000;
+}
+.muscle {
+    background-color: #ff0000;
+}
