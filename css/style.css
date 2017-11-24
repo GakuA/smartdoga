@@ -33,39 +33,18 @@ form {
     cursor: pointer;
 }
 
-.sports {
+.tab div:nth-child(5n-4) {
     background-color: #ff0000;
 }
-.technology {
-    background-color: #0021ff;
+.tab div:nth-child(5n-3) {
+    background-color: #ffbf00;
 }
-.news {
-    background-color: #ff0000;
+.tab div:nth-child(5n-2) {
+    background-color: #11c701;
 }
-.game {
-    background-color: #ff0000;
+.tab div:nth-child(5n-1) {
+    background-color: #2400ff;
 }
-.animal {
-    background-color: #ff0000;
-}
-.product {
-    background-color: #ff0000;
-}
-.room {
-    background-color: #ff0000;
-}
-.tv {
-    background-color: #ff0000;
-}
-.youtuber {
-    background-color: #ff0000;
-}
-.great {
-    background-color: #ff0000;
-}
-.music {
-    background-color: #ff0000;
-}
-.muscle {
-    background-color: #ff0000;
+.tab div:nth-child(5n) {
+    background-color: #9300d9;
 }
