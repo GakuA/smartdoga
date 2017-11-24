@@ -17,18 +17,18 @@
         </div>
 
         <div class="tab">
-            <div>スポーツ</div>
-            <div>テクノロジー</div>
-            <div>ニュース</div>
-            <div>ゲーム</div>
-            <div>動物</div>
-            <div>商品紹介</div>
-            <div>部屋紹介</div>
-            <div>テレビ番組</div>
-            <div>YouTuber</div>
-            <div>凄技</div>
-            <div>音楽</div>
-            <div>筋肉</div>
+            <div>スポーツ</div><!--
+            --><div>テクノロジー</div><!--
+            --><div>ニュース</div><!--
+            --><div>ゲーム</div><!--
+            --><div>動物</div><!--
+            --><div>商品紹介</div><!--
+            --><div>部屋紹介</div><!--
+            --><div>テレビ番組</div><!--
+            --><div>YouTuber</div><!--
+            --><div>凄技</div><!--
+            --><div>音楽</div><!--
+            --><div>筋肉</div>
         </div>
     </div>
 </body>
