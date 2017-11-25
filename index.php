@@ -12,7 +12,7 @@
         <div class="main">
             <div>
                 <form>
-                    <input class="url" type="text" placeholder="YouTube、またはニコニコ動画のURLを投稿してください">
+                    <input class="url" type="text" placeholder="YouTube、ニコニコ動画のURLを投稿してください">
                     <input class="tokoBtm" type="submit" value="投稿">
                 </form>
             </div>
