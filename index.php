@@ -18,7 +18,7 @@
             </div>
 
             <div class="tab">
-                <div>トレンド</div><!--
+                <div class="active">トレンド</div><!--
                 --><div>スポーツ</div><!--
                 --><div>テクノロジー</div><!--
                 --><div>ニュース</div><!--
