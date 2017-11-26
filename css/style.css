@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 
-form {
+.main form {
     margin: 0 8px 10px;
     white-space: nowrap;
 }
@@ -64,4 +64,7 @@ form {
 
 .select label {
     display: block;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: -1px;
 }
