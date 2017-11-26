@@ -36,7 +36,7 @@ form {
 .tab div {
     padding: 6px 8px;
     display: inline-block;
-    font-weight: 500;
+    font-weight: bold;
     color: #ffffff;
     border-radius: 8px 8px 0 0;
     cursor: pointer;
