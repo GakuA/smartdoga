@@ -51,28 +51,28 @@
                     <input type="checkbox" id="game" name="select[]">ゲーム
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">動物
+                    <input type="checkbox" id="animal" name="select[]">動物
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">商品紹介
+                    <input type="checkbox" id="product" name="select[]">商品紹介
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">部屋紹介
+                    <input type="checkbox" id="room" name="select[]">部屋紹介
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">テレビ番組
+                    <input type="checkbox" id="tv" name="select[]">テレビ番組
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">YouTuber
+                    <input type="checkbox" id="youtuber" name="select[]">YouTuber
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">凄技
+                    <input type="checkbox" id="great" name="select[]">凄技
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">音楽
+                    <input type="checkbox" id="music" name="select[]">音楽
                 </label>
                 <label>
-                    <input type="checkbox" id="game" name="select[]">筋肉
+                    <input type="checkbox" id="muscle" name="select[]">筋肉
                 </label>
             </form>
         </div>
