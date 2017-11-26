@@ -19,6 +19,8 @@ form {
 .url {
     width: calc(100% - 74px);
     width : -webkit-calc(100% - 74px);
+    height: 26px;
+    padding: 4px;
 }
 
 .tokoBtm {
