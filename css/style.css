@@ -31,6 +31,7 @@ body {
 .tab {
     white-space: nowrap;
     overflow-x: auto;
+    border-bottom: 4px solid #e43000;
 }
 
 .tab .active {
