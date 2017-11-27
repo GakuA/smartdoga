@@ -1,5 +1,8 @@
 $(function(){
     $("#firstBtn").click(function() {
-        alert("ok");
+        var selectGenre = [];
+        if ($("#sports:checked").val()) {
+            selectGenre.push("sports");
+        }
     });
 });
