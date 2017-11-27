@@ -81,3 +81,9 @@ body {
     margin-bottom: -1px;
     padding: 10px;
 }
+
+#firstBtn {
+    margin: 10px;
+    width: 100%;
+
+}
