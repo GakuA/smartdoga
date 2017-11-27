@@ -1,3 +1,3 @@
-$("#firstBtn").click(function() {
+$(function(){$("#firstBtn").click(function() {
     alert("ok");
-});
+});});
