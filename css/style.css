@@ -86,4 +86,5 @@ body {
     margin: 10px;
     width: calc(100% - 20px);
     height: 40px;
+    font-size: 1em
 }
