@@ -4,8 +4,8 @@ body {
 }
 
 .main {
-    /*display: none;*/
 }
+
 .all {
     width: 100%;
     margin: 0 auto;
@@ -65,7 +65,11 @@ body {
     background-color: #9300d9;
 }
 
-.setting h4 {
+.first {
+    display: none;
+}
+
+.first h4 {
     margin: 8px
 }
 

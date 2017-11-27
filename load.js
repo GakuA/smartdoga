@@ -1,3 +1,6 @@
 $(function(){
-    if ()
+    if (!$.cookie("genre")) {
+        $(".main").hide();
+        $(".first").show();
+    }
 });
