@@ -1,3 +1,5 @@
-$("#firstBtn").click(function() {
-    alert("ok");
+$(function(){
+    $("#firstBtn").click(function() {
+        alert("ok");
+    });
 });
