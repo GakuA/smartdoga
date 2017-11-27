@@ -39,7 +39,7 @@
 
         <div class="first">
             <div>
-                <h4>興味のあるジャンルを選択して下さい</h4>
+                <h4>興味があるジャンルを選択して下さい</h4>
             </div>
             <form class="select">
                 <label>
