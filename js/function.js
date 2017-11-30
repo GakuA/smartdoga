@@ -50,6 +50,7 @@ $(function(){
     });
 
     $(".setting").click(function() {
-        
+        $(".first h4").hide();
+        $(".first").show();
     });
 });
