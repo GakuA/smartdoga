@@ -51,8 +51,16 @@ $(function(){
             $(".muscle").addClass("on");
         }
 
+        $(".tab div.on:nth-child(5n-4)").css("background-color", "#e43000");
+        $(".tab div.on:nth-child(5n-3)").css("background-color", "#ffbf00");
+        $(".tab div.on:nth-child(5n-2)").css("background-color", "#33af59");
+        $(".tab div.on:nth-child(5n-1)").css("background-color", "#0057ff");
+        $(".tab div.on:nth-child(5n)").css("background-color", "#9300d9");
+
         $.cookie("genre", selectGenre, 365 * 5);
         $(".first").hide();
         $(".main").show();
+
+
     });
 });
