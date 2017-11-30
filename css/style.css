@@ -80,8 +80,8 @@ body {
 
 .select label {
     display: block;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
     margin-bottom: -1px;
     padding: 10px;
 }
