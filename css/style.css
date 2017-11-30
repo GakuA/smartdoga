@@ -36,8 +36,8 @@ body {
 }
 
 .tab .active {
-    padding-top: 10px;
-    padding-bottom: 8px;
+    padding-top: 10px!important;
+    padding-bottom: 8px!important;
 }
 
 .tab div {
