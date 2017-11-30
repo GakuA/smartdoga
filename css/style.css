@@ -35,11 +35,6 @@ body {
     border-bottom: 4px solid #e43000;
 }
 
-.tab .active {
-    padding-top: 10px;
-    padding-bottom: 8px;
-}
-
 .tab div {
     display: none;
 }
