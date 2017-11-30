@@ -4,53 +4,55 @@ $(function(){
     $("#firstBtn").click(function() {
         if ($("#sports").prop('checked')) {
             selectGenre.push("sports");
-            $(".sports").addClass("on");
+            $(".sports").addClass("active");
         }
         if ($("#technology").prop('checked')) {
             selectGenre.push("technology");
-            $(".technology").addClass("on");
+            $(".technology").addClass("active");
         }
         if ($("#news").prop('checked')) {
             selectGenre.push("news");
-            $(".news").addClass("on");
+            $(".news").addClass("active");
         }
         if ($("#game").prop('checked')) {
             selectGenre.push("game");
-            $(".game").addClass("on");
+            $(".game").addClass("active");
         }
         if ($("#animal").prop('checked')) {
             selectGenre.push("animal");
-            $(".animal").addClass("on");
+            $(".animal").addClass("active");
         }
         if ($("#product").prop('checked')) {
             selectGenre.push("product");
-            $(".product").addClass("on");
+            $(".product").addClass("active");
         }
         if ($("#room").prop('checked')) {
             selectGenre.push("room");
-            $(".room").addClass("on");
+            $(".room").addClass("active");
         }
         if ($("#tv").prop('checked')) {
             selectGenre.push("tv");
-            $(".tv").addClass("on");
+            $(".tv").addClass("active");
         }
         if ($("#youtuber").prop('checked')) {
             selectGenre.push("youtuber");
-            $(".youtuber").addClass("on");
+            $(".youtuber").addClass("active");
         }
         if ($("#great").prop('checked')) {
             selectGenre.push("great");
-            $(".great").addClass("on");
+            $(".great").addClass("active");
         }
         if ($("#music").prop('checked')) {
             selectGenre.push("music");
-            $(".music").addClass("on");
+            $(".music").addClass("active");
         }
         if ($("#muscle").prop('checked')) {
             selectGenre.push("muscle");
-            $(".muscle").addClass("on");
+            $(".muscle").addClass("active");
         }
 
         $.cookie("genre", selectGenre, 365 * 5);
+        $(".first").hide();
+        $(".main").show();
     });
 });
