@@ -51,6 +51,7 @@ $(function(){
     $(".tab .setting").click(function() {
         $(".first h4").hide();
 
+        var arrSelect = $.cookie("genre").split(",");
         $.each(arrSelect,
             function(key, value) {
                 $("#" + value).prop('checked', false);

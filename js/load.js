@@ -13,10 +13,9 @@ var arrGenre = {
     muscle: "筋肉"
 };
 
-var arrSelect = $.cookie("genre").split(",");
-
 $(function(){
     if ($.cookie("genre")) {
+        var arrSelect = $.cookie("genre").split(",");
         var tabText = "<div class='trends active'>トレンド</div>";
         $.each(arrSelect,
             function(key, value) {
