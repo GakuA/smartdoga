@@ -1,5 +1,5 @@
+var selectGenre = [];
 $(function(){
-    var selectGenre = [];
     $("#firstBtn").click(function() {
         if ($("#sports").prop('checked')) {
             selectGenre.push("sports");
