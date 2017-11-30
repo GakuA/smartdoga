@@ -24,6 +24,7 @@ $(function(){
         );
         tabText += "<div class='setting'>設定</div>";
         $(".tab").html(tabText);
+        $(".content").css("height", "calc(100vh - 122px)");
         $(".main").show();
     } else {
         $(".first").show();
