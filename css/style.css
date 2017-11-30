@@ -41,9 +41,6 @@ body {
 }
 
 .tab div {
-}
-
-.tab div {
     padding: 6px 8px;
     display: inline-block;
     font-weight: bold;
@@ -51,6 +48,11 @@ body {
     border-radius: 8px 8px 0 0;
     cursor: pointer;
     vertical-align: bottom;
+}
+
+.tab div.setting {
+    background-color: #00c8db!important;
+    margin-left: 6px;
 }
 
 .tab div:nth-child(5n-4) {
