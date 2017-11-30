@@ -1,4 +1,5 @@
 var selectGenre = [];
+
 $(function(){
     $("#firstBtn").click(function() {
         if ($("#sports").prop('checked')) {
@@ -37,5 +38,7 @@ $(function(){
         if ($("#muscle").prop('checked')) {
             selectGenre.push("muscle");
         }
+
+        $.cookie("genre", selectGenre, 365 * 5);
     });
 });
