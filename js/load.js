@@ -1,4 +1,5 @@
-var arrGenre = {sports: "スポーツ",
+var arrGenre = {
+                sports: "スポーツ",
                 technology: "テクノロジー",
                 news: "ニュース",
                 game: "ゲーム",
@@ -9,12 +10,12 @@ var arrGenre = {sports: "スポーツ",
                 youtuber: "YouTuber",
                 great: "凄技",
                 music: "音楽",
-                muscle: "筋肉"}
+                muscle: "筋肉"
+                };
 
 $(function(){
     if ($.cookie("genre")) {
-        var arrSelect = [];
-        arrSelect = $.cookie("genre").split(",");
+        var arrSelect = $.cookie("genre").split(",");
         var tabText = "<div class='active'>トレンド</div>";
         $.each(arrSelect,
             function(key, value) {
