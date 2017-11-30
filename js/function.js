@@ -42,4 +42,9 @@ $(function(){
         $.cookie("genre", selectGenre, 365 * 5);
         location.reload();
     });
+
+    $(".tab div").click(function() {
+        $(".tab div").removeClass("active");
+        $(this).addClass("active");
+    });
 });
