@@ -22,7 +22,7 @@ $(function(){
         );
         $(document).on("html", ".tab", function() {
             $(this).html(tabText);
-        }
+        });
         $(".main").show();
     } else {
         $(".first").show();
