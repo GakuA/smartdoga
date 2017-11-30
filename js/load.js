@@ -22,6 +22,7 @@ $(function(){
                 tabText += "<div class='" + value + "'>" + arrGenre[value] + "</div>";
             }
         );
+        tabText += "<div class='setting'>設定</div>";
         $(".tab").html(tabText);
         $(".main").show();
     } else {
