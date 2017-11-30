@@ -50,6 +50,13 @@ $(function(){
 
     $(".tab .setting").click(function() {
         $(".first h4").hide();
+
+        $.each(arrSelect,
+            function(key, value) {
+                $("#" + value).prop('checked', false);
+            }
+        );
+
         $(".first").show();
     });
 });
