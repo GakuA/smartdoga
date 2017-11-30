@@ -22,19 +22,6 @@
             </div>
 
             <div class="tab">
-                <div class="active">トレンド</div><!--
-                --><div class="sports">スポーツ</div><!--
-                --><div class="technology">テクノロジー</div><!--
-                --><div class="news">ニュース</div><!--
-                --><div class="game">ゲーム</div><!--
-                --><div class="animal">動物</div><!--
-                --><div class="product">商品紹介</div><!--
-                --><div class="room">部屋紹介</div><!--
-                --><div class="tv">テレビ番組</div><!--
-                --><div class="youtuber">YouTuber</div><!--
-                --><div class="great">凄技</div><!--
-                --><div class="music">音楽</div><!--
-                --><div class="muscle">筋肉</div>
             </div>
         </div>
 
