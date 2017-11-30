@@ -46,5 +46,6 @@ $(function(){
     $(".tab div").click(function() {
         $(".tab div").removeClass("active");
         $(this).addClass("active");
+        $(".tab").css("border-bottom-color", $(this).css("background-color"));
     });
 });
