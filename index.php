@@ -22,7 +22,7 @@
             </div>
 
             <div class="tab">
-                <div class="on active">トレンド</div><!--
+                <div class="active">トレンド</div><!--
                 --><div class="sports">スポーツ</div><!--
                 --><div class="technology">テクノロジー</div><!--
                 --><div class="news">ニュース</div><!--
