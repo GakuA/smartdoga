@@ -16,7 +16,7 @@ var arrGenre = {
 $(function(){
     if ($.cookie("genre")) {
         var arrSelect = $.cookie("genre").split(",");
-        var tabText = "<div class='active'>トレンド</div>";
+        var tabText = "<div class='trends active'>トレンド</div>";
         $.each(arrSelect,
             function(key, value) {
                 tabText += "<div class='" + value + "'>" + arrGenre[value] + "</div>";
