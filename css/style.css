@@ -41,6 +41,10 @@ body {
 }
 
 .tab div {
+    display: none;
+}
+
+.tab div.on {
     padding: 6px 8px;
     display: inline-block;
     font-weight: bold;

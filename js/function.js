@@ -4,6 +4,7 @@ $(function(){
     $("#firstBtn").click(function() {
         if ($("#sports").prop('checked')) {
             selectGenre.push("sports");
+            $("#sports").addClass("on");
         }
         if ($("#technology").prop('checked')) {
             selectGenre.push("technology");
