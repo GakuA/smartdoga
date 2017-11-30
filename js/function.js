@@ -1,7 +1,6 @@
-var selectGenre = [];
-
 $(function(){
     $("#firstBtn").click(function() {
+        var selectGenre = [];
         if ($("#sports").prop('checked')) {
             selectGenre.push("sports");
         }
@@ -49,7 +48,7 @@ $(function(){
         $(".tab").css("border-bottom-color", $(this).css("background-color"));
     });
 
-    $(".setting").click(function() {
+    $(".tab .setting").click(function() {
         $(".first h4").hide();
         $(".first").show();
     });
