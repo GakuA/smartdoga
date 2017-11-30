@@ -1,6 +1,6 @@
 $(function(){
+    var selectGenre = [];
     $("#firstBtn").click(function() {
-        var selectGenre = [];
         if ($("#sports").prop('checked')) {
             selectGenre.push("sports");
         }
