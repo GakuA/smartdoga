@@ -17,10 +17,10 @@ $(function(){
         var tabText = "<div class='active'>トレンド</div>";
         $.each(arrSelect,
             function(key, value) {
-                tabText += "<div class='" + key + "'>" + value + "</div>";
+                tabText += "<div class='" + arrGenre[key] + "'>" + value + "</div>";
             }
         );
-        $(".tab").text(tabText);
+        $(".tab").html(tabText);
         $(".main").show();
     } else {
         $(".first").show();
