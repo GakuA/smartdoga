@@ -13,7 +13,8 @@ var arrGenre = {sports: "スポーツ",
 
 $(function(){
     if ($.cookie("genre")) {
-        var arrSelect = $.cookie("genre").split(",");
+        var arrSelect = [];
+        arrSelect = $.cookie("genre").split(",");
         var tabText = "<div class='active'>トレンド</div>";
         $.each(arrSelect,
             function(key, value) {
