@@ -54,7 +54,7 @@ $(function(){
         var arrSelect = $.cookie("genre").split(",");
         $.each(arrSelect,
             function(key, value) {
-                $("#" + value).prop('checked', false);
+                $("#" + value).prop('checked', true);
             }
         );
 
