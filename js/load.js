@@ -22,9 +22,9 @@ $(function(){
                 tabText += "<div class='" + value + "'>" + arrGenre[value] + "</div>";
             }
         );
-        $(document).on("html", ".tab", function() {
-            $(this).html(tabText);
-        });
+        //$(document).on("html", ".tab", function() {
+        //    $(this).html(tabText);
+        //});
         $(".main").show();
     } else {
         $(".first").show();
