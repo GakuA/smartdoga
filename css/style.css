@@ -35,11 +35,16 @@ body {
     border-bottom: 4px solid #e43000;
 }
 
+.tab .active {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
 .tab div {
     display: none;
 }
 
-.tab div.active {
+.tab div.on {
     padding: 6px 8px;
     display: inline-block;
     font-weight: bold;
@@ -49,19 +54,19 @@ body {
     vertical-align: bottom;
 }
 
-.tab div.active:nth-child(5n-4) {
+.tab div.on:nth-child(5n-4) {
     background-color: #e43000;
 }
-.tab div.active:nth-child(5n-3) {
+.tab div.on:nth-child(5n-3) {
     background-color: #ffbf00;
 }
-.tab div.active:nth-child(5n-2) {
+.tab div.on:nth-child(5n-2) {
     background-color: #33af59;
 }
-.tab div.active:nth-child(5n-1) {
+.tab div.on:nth-child(5n-1) {
     background-color: #0057ff;
 }
-.tab div.active:nth-child(5n) {
+.tab div.on:nth-child(5n) {
     background-color: #9300d9;
 }
 
