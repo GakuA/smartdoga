@@ -17,7 +17,7 @@ $(function(){
         var tabText = "<div class='active'>トレンド</div>";
         $.each(arrSelect,
             function(key, value) {
-                tabText += "<div class='" + arrGenre[key] + "'>" + value + "</div>";
+                tabText += "<div class='" + arrGenre[value] + "'>" + value + "</div>";
             }
         );
         $(".tab").html(tabText);
