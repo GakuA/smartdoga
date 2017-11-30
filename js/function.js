@@ -48,4 +48,8 @@ $(function(){
         $(this).addClass("active");
         $(".tab").css("border-bottom-color", $(this).css("background-color"));
     });
+
+    $(".setting").click(function() {
+        
+    });
 });
