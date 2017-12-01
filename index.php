@@ -26,7 +26,7 @@
         </div>
 
         <div class="content">
-            <div class="first">
+            <div class="setting">
                 <div>
                     <h4>興味があるジャンルを選択して下さい</h4>
                 </div>
