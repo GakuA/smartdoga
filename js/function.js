@@ -1,5 +1,5 @@
 $(function(){
-    $("#firstBtn").click(function() {
+    $("#settingBtn").click(function() {
         var selectGenre = [];
         if ($("#sports").prop('checked')) {
             selectGenre.push("sports");
@@ -51,7 +51,7 @@ $(function(){
     });
 
     $(".tab .setting").click(function() {
-        $(".first h4").hide();
+        $(".setting h4").hide();
 
         var arrSelect = $.cookie("genre").split(",");
         $.each(arrSelect,
@@ -60,6 +60,6 @@ $(function(){
             }
         );
 
-        $(".first").show();
+        $(".setting").show();
     });
 });
