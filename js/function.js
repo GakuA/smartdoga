@@ -38,7 +38,7 @@ $(function(){
             selectGenre.push("muscle");
         }
 
-        $.cookie("genre", selectGenre, 365 * 5);
+        $.cookie("genre", selectGenre, {expires: 365 * 5});
         location.reload();
     });
 
@@ -60,6 +60,6 @@ $(function(){
             }
         );
 
-        $(".setting").show();
+        $(".content .setting").show();
     });
 });
