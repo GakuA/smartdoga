@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.ui.sortable.js"></script>
     <script src="js/load.js"></script>
     <script src="js/function.js"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css">
