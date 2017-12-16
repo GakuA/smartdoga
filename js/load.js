@@ -14,7 +14,7 @@ var arrGenre = {
 };
 
 $(function(){
-    $('.select').sortable();
+    $('.setting .select').sortable();
     if ($.cookie("genre")) {/*
         var arrSelect = $.cookie("genre").split(",");
         var tabText = "<div class='trends active'>トレンド</div>";
@@ -28,6 +28,6 @@ $(function(){
         $(".content").css("height", "calc(100vh - 122px)");
         $(".main").show();
     } else {*/
-        $(".setting").show();
+        $(".first").show();
     }
 });
