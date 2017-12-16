@@ -28,6 +28,6 @@ $(function(){
         $(".content").css("height", "calc(100vh - 122px)");
         $(".main").show();
     } else {
-        $(".setting").show();
+        $(".first").show();
     }
 });
