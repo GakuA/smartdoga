@@ -91,8 +91,10 @@ body {
     padding: 10px;
 }
 
-.select label after {
+.select label input after {
     content: url(/img/menu.png);
+    position: relative;
+    top: 8px;
 }
 
 #firstBtn {
