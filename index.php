@@ -29,53 +29,53 @@
         </div>
 
         <div class="content">
+                <div class="first">
+                    <div>
+                        <h4>興味があるジャンルを選択して下さい</h4>
+                    </div>
+                    <form class="select">
+                        <label>
+                            <input type="checkbox" id="sports">スポーツ
+                        </label>
+                        <label>
+                            <input type="checkbox" id="technology">テクノロジー
+                        </label>
+                        <label>
+                            <input type="checkbox" id="news">ニュース
+                        </label>
+                        <label>
+                            <input type="checkbox" id="game">ゲーム
+                        </label>
+                        <label>
+                            <input type="checkbox" id="animal">動物
+                        </label>
+                        <label>
+                            <input type="checkbox" id="product">商品紹介
+                        </label>
+                        <label>
+                            <input type="checkbox" id="room">部屋紹介
+                        </label>
+                        <label>
+                            <input type="checkbox" id="tv">テレビ番組
+                        </label>
+                        <label>
+                            <input type="checkbox" id="youtuber">YouTuber
+                        </label>
+                        <label>
+                            <input type="checkbox" id="great">凄技
+                        </label>
+                        <label>
+                            <input type="checkbox" id="music">音楽
+                        </label>
+                        <label>
+                            <input type="checkbox" id="muscle">筋肉
+                        </label>
+                        <input type="button" id="firstBtn" value="はじめる">
+                    </form>
+                </div>
 
         </div>
 
-        <div class="first">
-            <div>
-                <h4>興味があるジャンルを選択して下さい</h4>
-            </div>
-            <form class="select">
-                <label>
-                    <input type="checkbox" id="sports">スポーツ
-                </label>
-                <label>
-                    <input type="checkbox" id="technology">テクノロジー
-                </label>
-                <label>
-                    <input type="checkbox" id="news">ニュース
-                </label>
-                <label>
-                    <input type="checkbox" id="game">ゲーム
-                </label>
-                <label>
-                    <input type="checkbox" id="animal">動物
-                </label>
-                <label>
-                    <input type="checkbox" id="product">商品紹介
-                </label>
-                <label>
-                    <input type="checkbox" id="room">部屋紹介
-                </label>
-                <label>
-                    <input type="checkbox" id="tv">テレビ番組
-                </label>
-                <label>
-                    <input type="checkbox" id="youtuber">YouTuber
-                </label>
-                <label>
-                    <input type="checkbox" id="great">凄技
-                </label>
-                <label>
-                    <input type="checkbox" id="music">音楽
-                </label>
-                <label>
-                    <input type="checkbox" id="muscle">筋肉
-                </label>
-                <input type="button" id="firstBtn" value="はじめる">
-            </form>
-        </div>
     </div>
 </body>
 </html>
