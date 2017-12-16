@@ -75,11 +75,11 @@ body {
     overflow-y: auto;
 }
 
-.first {
+.setting {
     display: none;
 }
 
-.first h4 {
+.setting h4 {
     margin: 14px;
 }
 
@@ -91,7 +91,7 @@ body {
     padding: 10px;
 }
 
-#firstBtn {
+#settingBtn {
     margin: 20px 10px 10px;
     width: calc(100% - 20px);
     height: 40px;
