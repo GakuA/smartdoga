@@ -91,6 +91,10 @@ body {
     padding: 10px;
 }
 
+.select label after {
+    content: url(/img/menu.png);
+}
+
 #firstBtn {
     margin: 20px 10px 10px;
     width: calc(100% - 20px);

@@ -15,7 +15,7 @@ var arrGenre = {
 
 $(function(){
     $('.setting .select').sortable();
-    if ($.cookie("genre")) {/*
+    if ($.cookie("genre")) {
         var arrSelect = $.cookie("genre").split(",");
         var tabText = "<div class='trends active'>トレンド</div>";
         $.each(arrSelect,
@@ -27,7 +27,7 @@ $(function(){
         $(".tab").html(tabText);
         $(".content").css("height", "calc(100vh - 122px)");
         $(".main").show();
-    } else {*/
+    } else {
         $(".first").show();
     }
 });
