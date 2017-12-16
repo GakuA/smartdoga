@@ -37,7 +37,7 @@
             </div>
             <form class="select">
                 <label>
-                    <input type="checkbox" id="sports">スポーツ
+                    <input type="checkbox" id="sports">スポーツ<img src="/img/menu.png">
                 </label>
                 <label>
                     <input type="checkbox" id="technology">テクノロジー
