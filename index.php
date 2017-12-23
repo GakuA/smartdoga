@@ -37,7 +37,7 @@
             </div>
             <form class="select">
                 <label>
-                    <input type="checkbox" id="sports">スポーツ<img src="/img/menu.png">
+                    <input type="checkbox" id="sports">スポーツ
                 </label>
                 <label>
                     <input type="checkbox" id="technology">テクノロジー
@@ -74,6 +74,9 @@
                 </label>
                 <input type="button" id="firstBtn" value="決定">
             </form>
+        </div>
+
+        <div class="setting">
         </div>
     </div>
 </body>
