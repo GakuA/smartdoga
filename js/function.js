@@ -63,7 +63,7 @@ $(function(){
             noSelectGenre.push("muscle");
         }
 
-        if (selectGenre.length > 0) {
+        if (selectGenre.length == 0) {
             alert("興味があるものを選択してください")
             return;
         }
