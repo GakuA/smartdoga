@@ -73,9 +73,9 @@
                 <label>
                     <input type="checkbox" id="muscle">筋肉
                 </label>
+                <input type="button" id="firstBtn" value="はじめる">
             </form>
         </div>
-        <input class="first" type="button" id="firstBtn" value="はじめる">
 
         <div class="setting">
         </div>
