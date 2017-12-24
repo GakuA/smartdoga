@@ -105,6 +105,10 @@ body {
     float: right;
 }
 
+.select label input {
+    margin-right: 8px;
+}
+
 #firstBtn {
     margin: 20px 10px 10px;
     width: calc(100% - 20px);
