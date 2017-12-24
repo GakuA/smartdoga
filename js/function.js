@@ -1,5 +1,5 @@
 $(function(){
-    $("#settingBtn").click(function() {
+    $("#firstBtn").click(function() {
         var selectGenre = [];
         var noSelectGenre = [];
         if ($("#sports").prop('checked')) {
