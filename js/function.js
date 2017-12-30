@@ -90,7 +90,7 @@ $(function(){
 
         $(".content .setting").html(content);
 
-        $(".content div").hide();
+        $(".content > div").hide();
         $(".content .setting").show();
     });
 });
