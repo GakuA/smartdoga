@@ -30,6 +30,32 @@
         </div>
 
         <div class="content">
+            <div class="sports">
+            </div>
+            <div class="technology">
+            </div>
+            <div class="news">
+            </div>
+            <div class="game">
+            </div>
+            <div class="animal">
+            </div>
+            <div class="product">
+            </div>
+            <div class="room">
+            </div>
+            <div class="tv">
+            </div>
+            <div class="youtuber">
+            </div>
+            <div class="great">
+            </div>
+            <div class="music">
+            </div>
+            <div class="muscle">
+            </div>
+            <div class="setting">
+            </div>
         </div>
 
         <div class="first">
@@ -75,9 +101,6 @@
                 </label>
                 <input type="button" id="firstBtn" value="はじめる">
             </form>
-        </div>
-
-        <div class="setting">
         </div>
     </div>
 </body>
