@@ -91,11 +91,23 @@ body {
     padding: 10px;
 }
 
-.content img.m {
+.content img {
     height: 20px;
     margin-top: -3px;
-    margin-right: 8px;
     vertical-align: middle;
+}
+
+.content img.minus, .content img.plus {
+    margin-right: 8px;
+}
+
+.content img.move {
+    position: absolute;
+    right: 8px;
+}
+
+.content .setting div {
+    position: relative;
 }
 /*
 .content .setting div:after {

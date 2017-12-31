@@ -84,7 +84,7 @@ $(function(){
         var content = '<!--<div><h4>左端のボタンで削除・追加/右端のつまみで並べ替え</h4></div>-->';
         $.each(arrSelect,
             function(key, value) {
-                content += '<div class="' + value + '"><img class="m" src="/img/-.png">' + arrGenre[value] + '<img class="move" src="/img/menu.png"></div>';
+                content += '<div class="' + value + '"><img class="minus" src="/img/minus.png">' + arrGenre[value] + '<img class="move" src="/img/menu.png"></div>';
             }
         );
 
