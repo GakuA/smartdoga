@@ -115,7 +115,7 @@ body {
     text-align: center;
 }
 
-.content .setting .tabInSetting {
+.content .setting .tabInSetting div {
     border-bottom: 3px solid #808080;
     color: #808080;
 }
