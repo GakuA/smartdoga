@@ -81,13 +81,12 @@ $(function(){
 
     $(".tab .setting").click(function() {
         var arrSelect = $.cookie("genre").split(",");
-        var content = '<div class="tabInSetting"><div class="deleteTab">削除・並べ替え</div><div class="addTab">追加</div></div><div class="deleteContents">';
+        var content = '<div><h4>削除・並べ替え</h4></div>';
         $.each(arrSelect,
             function(key, value) {
                 content += '<div class="' + value + '"><img class="minus" src="/img/minus.png">' + arrGenre[value] + '<img class="move" src="/img/menu.png"></div>';
             }
         );
-        content += "</div>";
 
         $(".content .setting").html(content);
 
