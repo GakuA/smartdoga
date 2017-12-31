@@ -108,6 +108,10 @@ body {
     right: 16px;
 }
 
+.content .setting .tabInSetting {
+    padding: 10px 0;
+}
+
 .content .setting div div {
     position: relative;
 }
