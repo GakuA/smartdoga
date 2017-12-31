@@ -94,6 +94,7 @@ body {
 .content img {
     height: 20px;
     margin-top: -3px;
+    margin-right: 8px;
     vertical-align: middle;
 }
 /*
