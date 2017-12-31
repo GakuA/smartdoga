@@ -14,7 +14,7 @@ var arrGenre = {
 };
 
 $(function(){
-    $('.content .deleteContents div').sortable();
+    $('.content .setting').sortable();
     if ($.cookie("genre")) {
         var arrSelect = $.cookie("genre").split(",");
         var tabText = "<div class='trends active'>トレンド</div>";
