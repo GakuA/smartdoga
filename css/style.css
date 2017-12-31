@@ -92,7 +92,8 @@ body {
 }
 
 .content img {
-    height: 1em;
+    height: 20px;
+    margin-top: -3px;
     vertical-align: middle;
 }
 /*
