@@ -117,10 +117,12 @@ body {
 
 .content .setting .tabInSetting .deleteTab {
     border-bottom: 1px solid #239abf;
+    color: #239abf;
 }
 
 .content .setting .tabInSetting .addTab {
     border-bottom: 1px solid #808080;
+    color: #808080;
 }
 
 .content .setting div div {
