@@ -115,14 +115,15 @@ body {
     text-align: center;
 }
 
-.content .setting .tabInSetting .deleteTab {
-    border-bottom: 1px solid #239abf;
-    color: #239abf;
+.content .setting .tabInSetting {
+    border-bottom: 3px solid #808080;
+    color: #808080;
 }
 
-.content .setting .tabInSetting .addTab {
-    border-bottom: 1px solid #808080;
-    color: #808080;
+.content .setting .tabInSetting .active {
+    border-bottom: 3px solid #239abf;
+    color: #239abf;
+    font-weight: bold;
 }
 
 .content .setting div div {
