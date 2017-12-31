@@ -90,6 +90,7 @@ $(function(){
         content += "</div>";
 
         $(".content .setting").html(content);
+        $('.content .deleteContents').sortable();
 
         $(".content > div").hide();
         $(".content .setting").show();
