@@ -18,7 +18,7 @@
 <body>
     <div class="all">
         <div class="main">
-            <div>
+            <div class="post">
                 <form>
                     <input class="url" type="text" placeholder="YouTube、ニコニコ動画のURLを投稿してください">
                     <input class="tokoBtm" type="submit" value="投稿">
@@ -27,36 +27,37 @@
 
             <div class="tab">
             </div>
+
+            <div class="content">
+                <div class="sports">
+                </div>
+                <div class="technology">
+                </div>
+                <div class="news">
+                </div>
+                <div class="game">
+                </div>
+                <div class="animal">
+                </div>
+                <div class="product">
+                </div>
+                <div class="room">
+                </div>
+                <div class="tv">
+                </div>
+                <div class="youtuber">
+                </div>
+                <div class="great">
+                </div>
+                <div class="music">
+                </div>
+                <div class="muscle">
+                </div>
+                <div class="setting">
+                </div>
+            </div>
         </div>
 
-        <div class="content">
-            <div class="sports">
-            </div>
-            <div class="technology">
-            </div>
-            <div class="news">
-            </div>
-            <div class="game">
-            </div>
-            <div class="animal">
-            </div>
-            <div class="product">
-            </div>
-            <div class="room">
-            </div>
-            <div class="tv">
-            </div>
-            <div class="youtuber">
-            </div>
-            <div class="great">
-            </div>
-            <div class="music">
-            </div>
-            <div class="muscle">
-            </div>
-            <div class="setting">
-            </div>
-        </div>
 
         <div class="first">
             <div>
