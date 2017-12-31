@@ -83,7 +83,7 @@ body {
     margin: 14px;
 }
 
-.select label {
+.select label, .content .setting div {
     display: block;
     border-top: 1px solid #808080;
     border-bottom: 1px solid #808080;
@@ -91,7 +91,7 @@ body {
     padding: 10px;
 }
 
-.select label:after {
+.content .setting div:after {
     content: "";
     background-image: url(/img/menu.png);
     background-repeat: no-repeat;
