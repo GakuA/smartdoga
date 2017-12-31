@@ -110,6 +110,17 @@ body {
 
 .content .setting .tabInSetting div {
     padding: 10px 0;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.content .setting .tabInSetting .deleteTab {
+    border-bottom: 1px solid #239abf;
+}
+
+.content .setting .tabInSetting .addTab {
+    border-bottom: 1px solid #808080;
 }
 
 .content .setting div div {
