@@ -81,7 +81,7 @@ $(function(){
 
     $(".tab .setting").click(function() {
         var arrSelect = $.cookie("genre").split(",");
-        var content = '<div><h4>左端のボタンで削除・追加/右端のつまみで並べ替え</h4></div>';
+        var content = '<!--<div><h4>左端のボタンで削除・追加/右端のつまみで並べ替え</h4></div>-->';
         $.each(arrSelect,
             function(key, value) {
                 content += '<div class="' + value + '">' + arrGenre[value] + '</div>';
