@@ -90,7 +90,7 @@ $(function(){
         content += "</div>";
 
         $(".content .setting").html(content);
-        $('.content .deleteContents').sortable();
+        $('.content .deleteContents').sortable({ axis: 'y' });
 
         $(".content > div").hide();
         $(".content .setting").show();
