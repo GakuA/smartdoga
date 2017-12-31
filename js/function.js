@@ -81,7 +81,7 @@ $(function(){
 
     $(".tab .setting").click(function() {
         var arrSelect = $.cookie("genre").split(",");
-        var content = '<div class="tab"><div class="deleteTab">削除・並べ替え</div><div class="addTab">追加</div></div><div class="deleteContents">';
+        var content = '<div class="tabInSetting"><div class="deleteTab">削除・並べ替え</div><div class="addTab">追加</div></div><div class="deleteContents">';
         $.each(arrSelect,
             function(key, value) {
                 content += '<div class="' + value + '"><img class="minus" src="/img/minus.png">' + arrGenre[value] + '<img class="move" src="/img/menu.png"></div>';

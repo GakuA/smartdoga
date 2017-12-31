@@ -83,7 +83,7 @@ body {
     margin: 14px;
 }
 
-.select label, .content .setting div {
+.select label, .content .setting div div {
     display: block;
     border-top: 1px solid #808080;
     border-bottom: 1px solid #808080;
@@ -108,7 +108,7 @@ body {
     right: 16px;
 }
 
-.content .setting div {
+.content .setting div div {
     position: relative;
 }
 /*
