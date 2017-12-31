@@ -83,7 +83,7 @@ body {
     margin: 14px;
 }
 
-.select label, .content .setting div div {
+.select label, .content .setting div div:not(.deleteTab):not(.addTab) {
     display: block;
     border-top: 1px solid #808080;
     border-bottom: 1px solid #808080;
