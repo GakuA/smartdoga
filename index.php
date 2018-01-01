@@ -21,6 +21,21 @@
             <div class="post">
                 <form>
                     <input class="url" type="text" placeholder="YouTube、ニコニコ動画のURLを投稿してください">
+                    <select name="year">
+                        <option value="">ジャンルを選択</option>
+                        <option value="sports">スポーツ</option>
+                        <option value="technology">テクノロジー</option>
+                        <option value="news">ニュース</option>
+                        <option value="game">ゲーム</option>
+                        <option value="animal">動物</option>
+                        <option value="product">商品紹介</option>
+                        <option value="room">部屋紹介</option>
+                        <option value="tv">テレビ番組</option>
+                        <option value="youtuber">YouTuber</option>
+                        <option value="great">凄技</option>
+                        <option value="music">音楽</option>
+                        <option value="muscle">筋肉</option>
+                    </select>
                     <input class="tokoBtm" type="submit" value="投稿">
                 </form>
             </div>
