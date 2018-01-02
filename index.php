@@ -21,7 +21,7 @@
             <div class="post">
                 <form>
                     <input class="url" type="text" placeholder="YouTube、ニコニコ動画のURLを投稿してください">
-                    <input class="tokoBtm" type="submit" value="投稿">
+                    <input class="tokoBtm" type="submit" value="投稿"><br>
                     <select name="year">
                         <option value="">ジャンルを選択</option>
                         <option value="sports">スポーツ</option>
