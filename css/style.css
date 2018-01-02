@@ -17,11 +17,15 @@ body {
     white-space: nowrap;
 }
 
-.url, .genreSelect {
+.url {
     width: calc(100% - 74px);
     width : -webkit-calc(100% - 74px);
     height: 26px;
     padding: 4px;
+}
+
+.genreSelect {
+    height: 34px;
 }
 
 .tokoBtm {
