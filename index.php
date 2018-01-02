@@ -20,7 +20,7 @@
         <div class="main">
             <div class="post">
                 <form>
-                    <input class="url" type="text" placeholder="YouTube、ニコニコ動画のURLを投稿してください">
+                    <input class="url" type="text" placeholder="YouTube、ニコニコ動画のURLを投稿してください"><br>
                     <select name="year">
                         <option value="">ジャンルを選択</option>
                         <option value="sports">スポーツ</option>
