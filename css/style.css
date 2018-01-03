@@ -35,6 +35,11 @@ body {
     border-bottom: 4px solid #e43000;
 }
 
+.tab img {
+    width: 24px;
+    padding: 3px 12px;
+}
+
 .tab .active {
     padding-top: 10px!important;
     padding-bottom: 8px!important;
