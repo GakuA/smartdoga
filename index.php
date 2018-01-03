@@ -18,6 +18,7 @@
 <body>
     <div class="all">
         <div class="main">
+<!--
             <div class="post">
                 <form>
                     <input class="url" type="text" placeholder="YouTube、ニコニコ動画のURLを投稿してください">
@@ -72,7 +73,7 @@
                 </div>
             </div>
         </div>
-
+-->
 
         <div class="first">
             <div>
