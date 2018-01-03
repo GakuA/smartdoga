@@ -1,5 +1,5 @@
 body {
-    margin: 14px 0;
+    margin: 0;
     font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .content {
     overflow-y: auto;
-    height: calc(100vh - 74px);
+    height: calc(100vh - 46px);
 }
 
 .first {
