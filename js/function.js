@@ -84,7 +84,7 @@ $(function(){
         var content = '<div class="tabInSetting"><div class="deleteTab active">削除・並べ替え</div><div class="addTab">追加</div></div><div class="deleteContents">';
         $.each(arrSelect,
             function(key, value) {
-                content += '<div class="' + value + '"><img class="minus" src="/img/minus.png">' + arrGenre[value] + '<img class="move" src="/img/menu.png"></div>';
+                content += '<div class="' + value + '"><img class="minus" src="/img/minus.png">' + arrGenre[value] + '<img class="move" src="/img/move.png"></div>';
             }
         );
         content += "</div>";
