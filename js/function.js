@@ -100,7 +100,7 @@ $(function(){
         $(".menu, .modal").addClass("on");
     });
 
-    $(".modal").click(function() {
+    $(".modal.on").click(function() {
         $(".menu, .modal").removeClass("on");
     });
 });
