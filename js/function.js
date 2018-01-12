@@ -97,7 +97,7 @@ $(function(){
     });
 
     $(".menuImg").click(function() {
-        $(".menu").css("left", "70%");
-        
+        $(".menu").css("left", "0");
+
     });
 });
