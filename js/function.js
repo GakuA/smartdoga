@@ -95,4 +95,9 @@ $(function(){
         $(".content > div").hide();
         $(".content .setting").show();
     });
+
+    $(".menuImg").click(function() {
+        $(".menu").css("left", "70%");
+        
+    });
 });
