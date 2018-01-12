@@ -23,7 +23,6 @@ body {
 }
 
 .modal {
-    display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
