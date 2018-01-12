@@ -97,20 +97,10 @@ $(function(){
     });
 
     $(".menuImg").click(function() {
-        $(".menu").css("left", "0");
-        $.when(
-            $(".modal").show()
-        ).done(function() {
-            $(".modal").css("background-color", "rgba(0, 0, 0, 0.1)");
-        });
+        $(".menu, .modal").addClass("on");
     });
 
     $(".modal").click(function() {
-        $(".menu").css("left", "-70%");
-        $.when(
-            $(".modal").css("background-color", "rgba(0, 0, 0, 0)")
-        ).done(function() {
-            $(".modal").hide();
-        });
+        $(".menu, .modal").removeClass("on");
     });
 });

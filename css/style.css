@@ -17,6 +17,10 @@ body {
     transition: all 1300ms 0s ease;
 }
 
+.menu.on {
+    left: 0;
+}
+
 .menu div {
     padding: 10px;
     border-bottom: 1px solid #999;
@@ -29,7 +33,11 @@ body {
     width: 100%;
     height: 100%;
     z-index: 10;
-    transition: all 1300ms 0s ease;
+}
+
+.modal.on {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .all {
