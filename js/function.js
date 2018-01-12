@@ -98,11 +98,11 @@ $(function(){
 
     $(".menuImg").click(function() {
         $(".menu").css("left", "0");
-        $(".modal").css({"left": "0", "background-color": "rgba(0, 0, 0, 0.1)"});
+        $(".modal").show();
     });
 
     $(".modal").click(function() {
         $(".menu").css("left", "-70%");
-        $(".modal").css({"background-color": "rgba(0, 0, 0, 0)", "left": "-100%"});
+        $(".modal").hide();
     });
 });
