@@ -110,7 +110,7 @@ $(function(){
         $.when(
             $(".modal").css("background-color", "rgba(0, 0, 0, 0)")
         ).done(function() {
-            $(".modal").show();
+            $(".modal").hide();
         });
     });
 });
