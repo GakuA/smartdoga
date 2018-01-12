@@ -98,7 +98,11 @@ $(function(){
 
     $(".menuImg").click(function() {
         $(".menu").css("left", "0");
-        $(".modal").show();
+        $.when(
+            $(".modal").show();
+        ).done(function() {
+            $(".modal").css("background-color", "rgba(0, 0, 0, 0.1)");
+        });
     });
 
     $(".modal").click(function() {
