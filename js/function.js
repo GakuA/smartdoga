@@ -99,6 +99,6 @@ $(function(){
     $(".menuImg").click(function() {
         $(".menu").css("left", "0");
         $(".modal").show();
-        $(".modal").css("background-color", "rgba(0, 0, 0, 0)");
+        $(".modal").css("background-color", "rgba(0, 0, 0, 0.1)");
     });
 });
