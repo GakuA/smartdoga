@@ -98,6 +98,9 @@ $(function(){
 
     $(".menuImg").click(function() {
         $(".menu").css("left", "0");
-        $(".modal").css("display": "block", "background-color": "rgba(0, 0, 0, 0.1)");
+        $(".modal").css({"display": "block", "background-color": "rgba(0, 0, 0, 0.1)"});
+    });
+
+    $(".modal").click(function() {
     });
 });
