@@ -99,7 +99,7 @@ $(function(){
     $(".menuImg").click(function() {
         $(".menu").css("left", "0");
         $.when(
-            $(".modal").show();
+            $(".modal").show()
         ).done(function() {
             $(".modal").css("background-color", "rgba(0, 0, 0, 0.1)");
         });
@@ -107,6 +107,10 @@ $(function(){
 
     $(".modal").click(function() {
         $(".menu").css("left", "-70%");
-        $(".modal").hide();
+        $.when(
+            $(".modal").css("background-color", "rgba(0, 0, 0, 0)")
+        ).done(function() {
+            $(".modal").show();
+        });
     });
 });
