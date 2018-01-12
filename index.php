@@ -18,9 +18,9 @@
 <body>
     <div class="all">
         <div class="menu">
-            <div>動画投稿</div>
-            <div>タブ並べ替え・削除</div>
-            <div>タブ削除</div>
+            <div class="dogaToko">動画投稿</div>
+            <div class="addTab">タブ追加</div>
+            <div class="removeTab">タブ並べ替え・削除</div>
         </div>
         <div class="modal">
         </div>
