@@ -22,6 +22,8 @@
             <div>タブ並べ替え・削除</div>
             <div>タブ削除</div>
         </div>
+        <div class="modal">
+        </div>
         <div class="main">
 <!--
             <div class="post">
