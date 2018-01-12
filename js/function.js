@@ -103,6 +103,6 @@ $(function(){
 
     $(".modal").click(function() {
         $(".menu").css("left", "-70%");
-        $(".modal").css({"display": "none", "background-color": "rgba(0, 0, 0, 0)"});
+        $(".modal").css({"background-color": "rgba(0, 0, 0, 0)", "display": "none"});
     });
 });
